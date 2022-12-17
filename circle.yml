@@ -1,6 +1,8 @@
 # circle.yml
-machine:
-  node:
-    version: 16.17.1
-  test:
-    - npm test
+jobs:
+  build:
+    machine:
+      node:
+        version: 16.17.1
+      test:
+        - npm test
