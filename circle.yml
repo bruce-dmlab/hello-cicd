@@ -1,5 +1,6 @@
+# circle.yml
 machine:
   node:
-    version: 6.9.2  
+    version: 16.17.1  
   test:
     - npm test
